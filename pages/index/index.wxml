@@ -1,0 +1,145 @@
+<view class="container">
+  <!-- 滚动菜单 -->
+  <view class="search">
+    <scroll-view class="background-scroll" scroll-x>
+      <view class="nav">
+        <navigator url="">国际新闻</navigator>
+        <navigator url="">国内新闻</navigator>
+        <navigator url="">社会新闻</navigator>
+        <navigator url="">娱乐新闻</navigator>
+        <navigator url="">IT新闻</navigator>
+        <navigator url="">八卦新闻</navigator>
+        <navigator url="">娱乐新闻</navigator>
+        <navigator url="">IT新闻</navigator>
+        <navigator url="">八卦新闻</navigator>
+
+
+      </view>
+    </scroll-view>
+  </view>
+  <view></view>
+  <!-- 轮播图 -->
+  <view class="ads">
+    <swiper class="for-tu" autoplay indicator-dots>
+      <swiper-item>
+        <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571585858&di=44129af2dc93ea6684733f1f744ed0c1&imgtype=jpg&er=1&src=http%3A%2F%2Fn.sinaimg.cn%2Ffront%2F700%2Fw900h600%2F20190128%2FMnYa-hshmsth3877912.jpg"></image>
+        
+       
+
+      </swiper-item>
+      <swiper-item>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570991139334&di=53c43cacd2e504b9ba215888c663420a&imgtype=0&src=http%3A%2F%2Fupload.northnews.cn%2F2013%2F0805%2F1375713696791.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+       <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570991139332&di=62b3ac5932f87dcb35e0a753e17e8425&imgtype=0&src=http%3A%2F%2Fwww.xnnews.com.cn%2Fwenyu%2Flxsj%2F201703%2FW020170331760570092391.jpg"></image>
+
+      </swiper-item>
+    </swiper>
+  
+  </view>
+  <!-- 导航菜单 -->
+  <view class="outer-view">
+    
+    <view class="inner-view" >
+      <navigator>
+          <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+          <view class="inner-fnt">{{menuList[0]}}</view>
+        </navigator>
+      </view>
+    
+    <view class="inner-view" >
+      <navigator>
+          <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+          <view class="inner-fnt">{{menuList[1]}}</view>
+        </navigator>
+      </view>
+    <view class="inner-view" >
+      <navigator>
+          <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+          <view class="inner-fnt">收藏</view>
+        </navigator>
+      </view>
+    <view class="inner-view" >
+      <navigator>
+          <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+          <view class="inner-fnt">日志</view>
+        </navigator>
+      </view>
+    <view class="inner-view" >
+      <navigator>
+          <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+          <view class="inner-fnt">设置</view>
+        </navigator>
+      </view>
+    
+  </view>
+  <!-- 动态导航 -->
+  <view>
+    <scroll-view scroll-x>
+    
+      <view class="scroll-view">
+        <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+     
+     <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+
+      <view class="inner-view margin20" >
+          <navigator url="">
+              <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4128860200,2865324067&fm=26&gp=0.jpg"></image>
+              <view class="inner-fnt">设置</view>
+            </navigator>
+      </view>
+      
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<!-- 搜索栏 -->
+  <view class="search">
+  </view>
